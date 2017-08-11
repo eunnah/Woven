@@ -96,7 +96,7 @@ class UserProfile extends React.Component {
                 uri: partner.imageUrl
               }}
             />
-            <Text style={styles.name}>Your partner: {currentUser.firstName} {currentUser.lastName}</Text>
+          <Text style={styles.name}>Your partner: {partner.firstName} {partner.lastName}</Text>
           </View>
           <View style={styles.body}>
 
